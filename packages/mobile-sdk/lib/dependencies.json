@@ -9,11 +9,11 @@
   },
   "@react-navigation/native": {
     "name": "@react-navigation/native",
-    "version": "6.1.18"
+    "version": "7.1.8"
   },
   "@react-navigation/native-stack": {
     "name": "@react-navigation/native-stack",
-    "version": "6.11.0"
+    "version": "7.3.12"
   },
   "react-native-paper": {
     "name": "react-native-paper",
@@ -33,7 +33,7 @@
   },
   "@module-federation/enhanced": {
     "name": "@module-federation/enhanced",
-    "version": "0.10.0"
+    "version": "0.13.1"
   },
   "react-native-mmkv": {
     "name": "react-native-mmkv",
