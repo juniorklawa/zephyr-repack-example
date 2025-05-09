@@ -131,16 +131,16 @@ importers:
         specifier: 0.79.0
         version: 0.79.0
       '@rnef/cli':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6(typescript@5.8.3)
       '@rnef/platform-android':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6
       '@rnef/platform-ios':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6(typescript@5.8.3)
       '@rnef/plugin-repack':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6(@callstack/repack@5.1.0-rc.0(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.9(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.9(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.9(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
       '@rnx-kit/align-deps':
         specifier: ^2.5.5
@@ -261,16 +261,16 @@ importers:
         specifier: 0.79.0
         version: 0.79.0
       '@rnef/cli':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6(typescript@5.8.3)
       '@rnef/platform-android':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6
       '@rnef/platform-ios':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6(typescript@5.8.3)
       '@rnef/plugin-repack':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6(@callstack/repack@5.1.0-rc.0(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.9(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.9(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.9(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
       '@rnx-kit/align-deps':
         specifier: ^2.5.5
@@ -411,16 +411,16 @@ importers:
         specifier: 0.79.0
         version: 0.79.0
       '@rnef/cli':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6(typescript@5.8.3)
       '@rnef/platform-android':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6
       '@rnef/platform-ios':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6(typescript@5.8.3)
       '@rnef/plugin-repack':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6(@callstack/repack@5.1.0-rc.0(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.9(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.9(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.9(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
       '@rnx-kit/align-deps':
         specifier: ^2.5.5
@@ -550,16 +550,16 @@ importers:
         specifier: 0.79.0
         version: 0.79.0
       '@rnef/cli':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6(typescript@5.8.3)
       '@rnef/platform-android':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6
       '@rnef/platform-ios':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6(typescript@5.8.3)
       '@rnef/plugin-repack':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6(@callstack/repack@5.1.0-rc.0(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.9(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.9(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.9(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
       '@rnx-kit/align-deps':
         specifier: ^2.5.5
@@ -680,16 +680,16 @@ importers:
         specifier: 0.79.0
         version: 0.79.0
       '@rnef/cli':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6(typescript@5.8.3)
       '@rnef/platform-android':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6
       '@rnef/platform-ios':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6(typescript@5.8.3)
       '@rnef/plugin-repack':
-        specifier: ^0.7.6
+        specifier: ^0.7.5
         version: 0.7.6(@callstack/repack@5.1.0-rc.0(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.9(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.9(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.9(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
       '@rnx-kit/align-deps':
         specifier: ^2.5.5
