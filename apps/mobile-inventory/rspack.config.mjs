@@ -61,7 +61,7 @@ const config = env => {
               './HomeScreen': './src/screens/HomeScreen',
               './ProductDetailsScreen': './src/screens/ProductDetailsScreen',
             },
-        shared: getSharedDependencies({eager: true}),
+        shared: getSharedDependencies({eager: STANDALONE}),
       }),
       new rspack.IgnorePlugin({
         resourceRegExp: /^@react-native-masked-view/,

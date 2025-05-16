@@ -42,7 +42,7 @@
     "@babel/preset-env": "^7.26.10",
     "@babel/runtime": "^7.26.10",
     "@callstack/eslint-config": "^15.0.0",
-    "@callstack/repack": "5.1.0-rc.0",
+    "@callstack/repack": "5.1.0",
     "@react-native/babel-preset": "0.79.0",
     "@react-native/eslint-config": "0.79.0",
     "@react-native/typescript-config": "0.79.0",
@@ -64,7 +64,7 @@
     "mobile-eslint-config": "workspace:^",
     "mobile-sdk": "0.0.1",
     "typescript": "^5.6.3",
-    "zephyr-repack-plugin": "0.0.38"
+    "zephyr-repack-plugin": "0.0.39"
   },
   "rnx-kit": {
     "kitType": "app",
