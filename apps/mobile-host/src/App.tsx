@@ -1,5 +1,11 @@
 import React, {useState} from 'react';
-import {LogBox} from 'react-native';
+import {
+  LogBox,
+  Platform,
+  SafeAreaView,
+  StatusBar,
+  StyleSheet,
+} from 'react-native';
 
 import {NavigationContainer} from '@react-navigation/native';
 import {
@@ -24,22 +30,31 @@ const App = () => {
 
   return (
     <>
-      {isSplashVisible ? (
-        <AnimatedBootSplash onAnimationEnd={hideSplashScreen} />
-      ) : null}
-      <ThemeProvider>
-        <LocalizationContextProvider>
-          <QueryClientProvider client={queryClient}>
-            <SnackbarContextProvider>
-              <NavigationContainer>
-                <MainNavigator />
-              </NavigationContainer>
-            </SnackbarContextProvider>
-          </QueryClientProvider>
-        </LocalizationContextProvider>
-      </ThemeProvider>
+      <SafeAreaView style={styles.AndroidSafeArea}>
+        {isSplashVisible ? (
+          <AnimatedBootSplash onAnimationEnd={hideSplashScreen} />
+        ) : null}
+        <ThemeProvider>
+          <LocalizationContextProvider>
+            <QueryClientProvider client={queryClient}>
+              <SnackbarContextProvider>
+                <NavigationContainer>
+                  <MainNavigator />
+                </NavigationContainer>
+              </SnackbarContextProvider>
+            </QueryClientProvider>
+          </LocalizationContextProvider>
+        </ThemeProvider>
+      </SafeAreaView>
     </>
   );
 };
+
+const styles = StyleSheet.create({
+  AndroidSafeArea: {
+    flex: 1,
+    paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
+  },
+});
 
 export default App;
