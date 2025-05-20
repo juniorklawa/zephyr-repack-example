@@ -119,8 +119,8 @@ importers:
         specifier: ^15.0.0
         version: 15.0.0(eslint@8.57.1)(jest@29.7.0(@types/node@22.15.14)(babel-plugin-macros@3.1.0))(typescript@5.8.3)
       '@callstack/repack':
-        specifier: 5.1.1-canary-20250519224656
-        version: 5.1.1-canary-20250519224656(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))
+        specifier: 5.1.1
+        version: 5.1.1(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))
       '@react-native/babel-preset':
         specifier: 0.79.0
         version: 0.79.0(@babel/core@7.27.1)
@@ -141,7 +141,7 @@ importers:
         version: 0.7.6(typescript@5.8.3)
       '@rnef/plugin-repack':
         specifier: ^0.7.5
-        version: 0.7.6(@callstack/repack@5.1.1-canary-20250519224656(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
+        version: 0.7.6(@callstack/repack@5.1.1(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
       '@rnx-kit/align-deps':
         specifier: ^2.5.5
         version: 2.5.5
@@ -249,8 +249,8 @@ importers:
         specifier: ^15.0.0
         version: 15.0.0(eslint@8.57.1)(jest@29.7.0(@types/node@22.15.14)(babel-plugin-macros@3.1.0))(typescript@5.8.3)
       '@callstack/repack':
-        specifier: 5.1.1-canary-20250519224656
-        version: 5.1.1-canary-20250519224656(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))
+        specifier: 5.1.1
+        version: 5.1.1(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))
       '@react-native/babel-preset':
         specifier: 0.79.0
         version: 0.79.0(@babel/core@7.27.1)
@@ -271,7 +271,7 @@ importers:
         version: 0.7.6(typescript@5.8.3)
       '@rnef/plugin-repack':
         specifier: ^0.7.5
-        version: 0.7.6(@callstack/repack@5.1.1-canary-20250519224656(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
+        version: 0.7.6(@callstack/repack@5.1.1(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
       '@rnx-kit/align-deps':
         specifier: ^2.5.5
         version: 2.5.5
@@ -396,8 +396,8 @@ importers:
         specifier: ^15.0.0
         version: 15.0.0(eslint@8.57.1)(jest@29.7.0(@types/node@22.15.14)(babel-plugin-macros@3.1.0))(typescript@5.8.3)
       '@callstack/repack':
-        specifier: 5.1.1-canary-20250519224656
-        version: 5.1.1-canary-20250519224656(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))
+        specifier: 5.1.1
+        version: 5.1.1(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))
       '@react-native/babel-plugin-codegen':
         specifier: 0.76.5
         version: 0.76.5(@babel/preset-env@7.27.2(@babel/core@7.27.1))
@@ -421,7 +421,7 @@ importers:
         version: 0.7.6(typescript@5.8.3)
       '@rnef/plugin-repack':
         specifier: ^0.7.5
-        version: 0.7.6(@callstack/repack@5.1.1-canary-20250519224656(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
+        version: 0.7.6(@callstack/repack@5.1.1(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
       '@rnx-kit/align-deps':
         specifier: ^2.5.5
         version: 2.5.5
@@ -538,8 +538,8 @@ importers:
         specifier: ^15.0.0
         version: 15.0.0(eslint@8.57.1)(jest@29.7.0(@types/node@22.15.14)(babel-plugin-macros@3.1.0))(typescript@5.8.3)
       '@callstack/repack':
-        specifier: 5.1.1-canary-20250519224656
-        version: 5.1.1-canary-20250519224656(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))
+        specifier: 5.1.1
+        version: 5.1.1(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))
       '@react-native/babel-preset':
         specifier: 0.79.0
         version: 0.79.0(@babel/core@7.27.1)
@@ -560,7 +560,7 @@ importers:
         version: 0.7.6(typescript@5.8.3)
       '@rnef/plugin-repack':
         specifier: ^0.7.5
-        version: 0.7.6(@callstack/repack@5.1.1-canary-20250519224656(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
+        version: 0.7.6(@callstack/repack@5.1.1(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
       '@rnx-kit/align-deps':
         specifier: ^2.5.5
         version: 2.5.5
@@ -668,8 +668,8 @@ importers:
         specifier: ^15.0.0
         version: 15.0.0(eslint@8.57.1)(jest@29.7.0(@types/node@22.15.14)(babel-plugin-macros@3.1.0))(typescript@5.8.3)
       '@callstack/repack':
-        specifier: 5.1.1-canary-20250519224656
-        version: 5.1.1-canary-20250519224656(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))
+        specifier: 5.1.1
+        version: 5.1.1(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))
       '@react-native/babel-preset':
         specifier: 0.79.0
         version: 0.79.0(@babel/core@7.27.1)
@@ -690,7 +690,7 @@ importers:
         version: 0.7.6(typescript@5.8.3)
       '@rnef/plugin-repack':
         specifier: ^0.7.5
-        version: 0.7.6(@callstack/repack@5.1.1-canary-20250519224656(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
+        version: 0.7.6(@callstack/repack@5.1.1(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)
       '@rnx-kit/align-deps':
         specifier: ^2.5.5
         version: 2.5.5
@@ -1559,12 +1559,12 @@ packages:
     peerDependencies:
       react: '>=16.3.0'
 
-  '@callstack/repack-dev-server@5.1.1-canary-20250519224656':
-    resolution: {integrity: sha512-mfL6yLm0cA02E7D24eDiei5HCDtPvNcnTQvEkohaGrm++oToCkOJq9u9yGVSFo5mcoUfJvaIaVGH1uPXAqXV4g==}
+  '@callstack/repack-dev-server@5.1.1':
+    resolution: {integrity: sha512-0E5/N7yHvRX+Q8Yf5oXZYM2PG+ZgpQqErcLDDOSUdlrSwVJ1MbdaI//90+D5X11fy84st5XCL9mbO4B3sS4DfQ==}
     engines: {node: '>=18'}
 
-  '@callstack/repack@5.1.1-canary-20250519224656':
-    resolution: {integrity: sha512-Gece6DkcXLxkvqUwNc+2k0Wo/+y6/1to6s6v70t0LNu7nrkzQ8i0gdWSLTNkEQ99OnrK+IP9flg6IgvFFS8Y/w==}
+  '@callstack/repack@5.1.1':
+    resolution: {integrity: sha512-GuJcDi4gr5gru3z8lVFNNBUicgg8ibi9FTwJ+XEwyPRKMPWPYwsh7mTEaYzCefzBTIRmxExQN+KTbFQzzL4qsQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@module-federation/enhanced': '>=0.6.10'
@@ -8362,7 +8362,7 @@ snapshots:
       hoist-non-react-statics: 3.3.2
       react: 19.0.0
 
-  '@callstack/repack-dev-server@5.1.1-canary-20250519224656':
+  '@callstack/repack-dev-server@5.1.1':
     dependencies:
       '@babel/code-frame': 7.27.1
       '@fastify/middie': 8.3.3
@@ -8382,9 +8382,9 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@callstack/repack@5.1.1-canary-20250519224656(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))':
+  '@callstack/repack@5.1.1(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))':
     dependencies:
-      '@callstack/repack-dev-server': 5.1.1-canary-20250519224656
+      '@callstack/repack-dev-server': 5.1.1
       '@discoveryjs/json-ext': 0.5.7
       '@rspack/plugin-react-refresh': 1.0.0(react-refresh@0.14.2)
       babel-loader: 9.2.1(@babel/core@7.27.1)
@@ -9931,9 +9931,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@rnef/plugin-repack@0.7.6(@callstack/repack@5.1.1-canary-20250519224656(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)':
+  '@rnef/plugin-repack@0.7.6(@callstack/repack@5.1.1(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0)))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)':
     dependencies:
-      '@callstack/repack': 5.1.1-canary-20250519224656(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))
+      '@callstack/repack': 5.1.1(@babel/core@7.27.1)(@module-federation/enhanced@0.13.1(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react@19.0.0)(typescript@5.8.3))(@rspack/core@1.3.10(@swc/helpers@0.5.15))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))
       '@rnef/tools': 0.7.6
       '@rspack/core': 1.3.10(@swc/helpers@0.5.15)
       '@swc/helpers': 0.5.15

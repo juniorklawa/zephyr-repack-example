@@ -16,7 +16,7 @@
   },
   "@callstack/repack": {
     "name": "@callstack/repack",
-    "version": "5.1.1-canary-20250519224656",
+    "version": "5.1.1",
     "devOnly": true
   },
   "@react-native/babel-preset": {
