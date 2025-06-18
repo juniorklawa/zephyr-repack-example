@@ -2,6 +2,12 @@
   "name": "MobileHost",
   "version": "0.0.1",
   "private": true,
+  "zephyr:dependencies": {
+    "MobileCart": "workspace:*",
+    "MobileCheckout": "workspace:*",
+    "MobileInventory": "workspace:*",
+    "MobileOrders": "workspace:*"
+  },
   "scripts": {
     "android": "rnef run:android",
     "ios": "rnef run:ios",
@@ -73,7 +79,7 @@
     "mobile-sdk": "0.0.1",
     "reactotron-react-native": "^5.1.13",
     "typescript": "^5.6.3",
-    "zephyr-repack-plugin": "0.0.39"
+    "zephyr-repack-plugin": "0.0.54"
   },
   "rnx-kit": {
     "kitType": "app",

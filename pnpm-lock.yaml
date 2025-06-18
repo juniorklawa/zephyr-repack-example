@@ -185,8 +185,8 @@ importers:
         specifier: ^5.6.3
         version: 5.8.3
       zephyr-repack-plugin:
-        specifier: 0.0.39
-        version: 0.0.39
+        specifier: 0.0.54
+        version: 0.0.54
 
   apps/mobile-checkout:
     dependencies:
@@ -315,8 +315,8 @@ importers:
         specifier: ^5.6.3
         version: 5.8.3
       zephyr-repack-plugin:
-        specifier: 0.0.39
-        version: 0.0.39
+        specifier: 0.0.54
+        version: 0.0.54
 
   apps/mobile-e2e: {}
 
@@ -471,8 +471,8 @@ importers:
         specifier: ^5.6.3
         version: 5.8.3
       zephyr-repack-plugin:
-        specifier: 0.0.39
-        version: 0.0.39
+        specifier: 0.0.54
+        version: 0.0.54
 
   apps/mobile-inventory:
     dependencies:
@@ -604,8 +604,8 @@ importers:
         specifier: ^5.6.3
         version: 5.8.3
       zephyr-repack-plugin:
-        specifier: 0.0.39
-        version: 0.0.39
+        specifier: 0.0.54
+        version: 0.0.54
 
   apps/mobile-orders:
     dependencies:
@@ -734,8 +734,8 @@ importers:
         specifier: ^5.6.3
         version: 5.8.3
       zephyr-repack-plugin:
-        specifier: 0.0.39
-        version: 0.0.39
+        specifier: 0.0.54
+        version: 0.0.54
 
   packages/mobile-core:
     dependencies:
@@ -744,7 +744,7 @@ importers:
         version: 5.75.5(react@18.3.1)
       axios:
         specifier: ^1.7.9
-        version: 1.9.0
+        version: 1.9.0(debug@4.4.0)
       i18next:
         specifier: 24.0.2
         version: 24.0.2(typescript@5.8.3)
@@ -3163,6 +3163,11 @@ packages:
   avvio@8.4.0:
     resolution: {integrity: sha512-CDSwaxINFy59iNwhYnkvALBwZiTydGkOecZyPkqBpABYR1KqGEsET0VOOYDwtleZSUIdeY36DC2bSZ24CO1igA==}
 
+  axios-retry@4.5.0:
+    resolution: {integrity: sha512-aR99oXhpEDGo0UuAlYcn2iGRds30k366Zfa05XWScR9QaQD4JYiP3/1Qt1u7YlefUOK+cn0CcwoL1oefavQUlQ==}
+    peerDependencies:
+      axios: 0.x || 1.x
+
   axios@1.9.0:
     resolution: {integrity: sha512-re4CqKTJaURpzbLHtIi6XpDv20/CnpXOtjRY5/CU32L8gU8ek9UIivcfvSWvmKEngmVbrUtPpdDwWDWL7DNHvg==}
 
@@ -4982,6 +4987,10 @@ packages:
     resolution: {integrity: sha512-MjYsKHO5O7mCsmRGxWcLWheFqN9DJ/2TmngvjKXihe6efViPqc274+Fx/4fYj/r03+ESvBdTXK0V6tA3rgez1g==}
     engines: {node: '>= 0.4'}
 
+  is-retry-allowed@2.2.0:
+    resolution: {integrity: sha512-XVm7LOeLpTW4jV19QSH38vkswxoLud8sQ57YwJVTPWdiaI9I8keEhGFpBlslyVsgdQy4Opg8QOLb8YRgsyZiQg==}
+    engines: {node: '>=10'}
+
   is-set@2.0.3:
     resolution: {integrity: sha512-iPAjerrse27/ygGLxw+EBR9agv9Y6uLeYVJMu+QNCoouJ1/1ri0mGrcWpfCqFZuzzx3WjtwxG098X+n4OuRkPg==}
     engines: {node: '>= 0.4'}
@@ -6164,6 +6173,9 @@ packages:
   prop-types@15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
 
+  proper-lockfile@4.1.2:
+    resolution: {integrity: sha512-TjNPblN4BwAWMXU8s9AEz4JmQxnD1NNL7bNOY/AKUzyamc379FWASUhc/K1pL2noVb+XmZKLL68cjzLsiOAMaA==}
+
   protocols@2.0.2:
     resolution: {integrity: sha512-hHVTzba3wboROl0/aWRRG9dMytgH6ow//STBZh43l/wQgmMhYhOFi0EHWAPtoCz9IAUymsyP0TSBHkhgMEGNnQ==}
 
@@ -6481,6 +6493,10 @@ packages:
   ret@0.4.3:
     resolution: {integrity: sha512-0f4Memo5QP7WQyUEAYUO3esD/XjOc3Zjjg5CPsAq1p8sIu0XPeMbHJemKA0BO7tV0X7+A0FoEpbmHXWxPyD3wQ==}
     engines: {node: '>=10'}
+
+  retry@0.12.0:
+    resolution: {integrity: sha512-9LkiTwjUh6rT555DtE9rTX+BKByPfrMzEAtnlEtdEwr3Nkffwiihqe2bWADg+OQRjt9gl6ICdmB/ZFDCGAtSow==}
+    engines: {node: '>= 4'}
 
   reusify@1.1.0:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
@@ -7394,17 +7410,17 @@ packages:
     resolution: {integrity: sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==}
     engines: {node: '>=12.20'}
 
-  zephyr-agent@0.0.39:
-    resolution: {integrity: sha512-M/s+1VMZzgjAZPXyM9bnaXc30Z0SR6oo7gqHnroHv8/HwH1AYgSnQzc4LQk/UL0bsM42CA9kRkfKGCUHpJUvNw==}
+  zephyr-agent@0.0.54:
+    resolution: {integrity: sha512-p9hl/txsobHYyG6+8dJdhgnnuAxVm4BUt4jaIiXxT2QZjqbgIsGrDYaQfRIgVOMiBoM7XQttzZz67mQaSemQGQ==}
 
-  zephyr-edge-contract@0.0.39:
-    resolution: {integrity: sha512-jgurm4ZpLYGeLZTpkfp1+ypGUPceFRTuEHp//OMN6AgVKuQM0XiSr+gqH68usel/BU04Yq3Cmwfjacm5HSeIag==}
+  zephyr-edge-contract@0.0.54:
+    resolution: {integrity: sha512-HaNEySkJCsQ9jY5FYa656sEpBPT483rlvQJZrgNe7qZv7C0Kmeo4ipBl/CiMA69XCzpRRk8+O484aYI3DkV7ag==}
 
-  zephyr-repack-plugin@0.0.39:
-    resolution: {integrity: sha512-VX6d1v0jt+ouCBmomwJH2MvShZn128yXGJFWuzEIJWCWePUowCNm3hcchvgT/M+TCc6IshRTZiNvJJUSpkYTFw==}
+  zephyr-repack-plugin@0.0.54:
+    resolution: {integrity: sha512-J6XLmhp8FuNt/kcVzcdf0aJD6Jcvin8nKOPGQAROvjIOjBlUG6akT3g4jJrKbaD2zrpKkYKo2ea7mhFHeeofbQ==}
 
-  zephyr-xpack-internal@0.0.39:
-    resolution: {integrity: sha512-s3X7CprwUjgZ3/YIMa1cBoC3x/Zak8d+Ar+nO8DeMWclqc0K4SIj1qJh0QtslYbtfB88hrsDmRr5iXDIdLEEWw==}
+  zephyr-xpack-internal@0.0.54:
+    resolution: {integrity: sha512-vSvBPPuH9PcrJc/gZYU7e27b9F2hEhbgXeLYqmOVU0ptM50+Bff+v2xt62cK/QErzODAHGExfSoViTbG+97N6g==}
 
   zustand@5.0.4:
     resolution: {integrity: sha512-39VFTN5InDtMd28ZhjLyuTnlytDr9HfwO512Ai4I8ZABCoyAj4F1+sr7sD1jP/+p7k77Iko0Pb5NhgBFDCX0kQ==}
@@ -9046,7 +9062,7 @@ snapshots:
       '@module-federation/third-party-dts-extractor': 0.13.1
       adm-zip: 0.5.16
       ansi-colors: 4.1.3
-      axios: 1.9.0
+      axios: 1.9.0(debug@4.4.0)
       chalk: 3.0.0
       fs-extra: 9.1.0
       isomorphic-ws: 5.0.0(ws@8.18.0)
@@ -9969,7 +9985,7 @@ snapshots:
       '@rsdoctor/sdk': 0.4.13(@rspack/core@1.3.10(@swc/helpers@0.5.15))
       '@rsdoctor/types': 0.4.13(@rspack/core@1.3.10(@swc/helpers@0.5.15))
       '@rsdoctor/utils': 0.4.13(@rspack/core@1.3.10(@swc/helpers@0.5.15))
-      axios: 1.9.0
+      axios: 1.9.0(debug@4.4.0)
       enhanced-resolve: 5.12.0
       filesize: 10.1.6
       fs-extra: 11.3.0
@@ -10733,7 +10749,12 @@ snapshots:
       '@fastify/error': 3.4.1
       fastq: 1.19.1
 
-  axios@1.9.0:
+  axios-retry@4.5.0(axios@1.9.0(debug@4.4.0)):
+    dependencies:
+      axios: 1.9.0(debug@4.4.0)
+      is-retry-allowed: 2.2.0
+
+  axios@1.9.0(debug@4.4.0):
     dependencies:
       follow-redirects: 1.15.9(debug@4.4.0)
       form-data: 4.0.2
@@ -12709,6 +12730,8 @@ snapshots:
       has-tostringtag: 1.0.2
       hasown: 2.0.2
 
+  is-retry-allowed@2.2.0: {}
+
   is-set@2.0.3: {}
 
   is-shared-array-buffer@1.0.4:
@@ -13888,7 +13911,7 @@ snapshots:
   mobile-core@file:packages/mobile-core(@types/react@18.3.21)(react-native-config@1.5.3)(react-native-mmkv@3.1.0(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))(react@19.0.0))(react-native-paper@5.12.5(patch_hash=ccda531988e013648880183e6712e5bcd757513df646155833c7b23c9889296a)(react-native-safe-area-context@5.4.0(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))(react@19.0.0))(react-native-vector-icons@10.2.0)(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))(react@19.0.0))(react-native@0.79.0(patch_hash=7c29844848c420207e715c2f562037c028834b0b2ad766de14b441795699dfcc)(@babel/core@7.27.1)(@types/react@18.3.21)(react@19.0.0))(react@19.0.0)(typescript@5.8.3)(use-sync-external-store@1.5.0(react@19.0.0)):
     dependencies:
       '@tanstack/react-query': 5.75.5(react@19.0.0)
-      axios: 1.9.0
+      axios: 1.9.0(debug@4.4.0)
       i18next: 24.0.2(typescript@5.8.3)
       react: 19.0.0
       react-hook-form: 7.56.2(react@19.0.0)
@@ -13997,7 +14020,7 @@ snapshots:
       '@yarnpkg/lockfile': 1.1.0
       '@yarnpkg/parsers': 3.0.2
       '@zkochan/js-yaml': 0.0.7
-      axios: 1.9.0
+      axios: 1.9.0(debug@4.4.0)
       chalk: 4.1.2
       cli-cursor: 3.1.0
       cli-spinners: 2.6.1
@@ -14384,6 +14407,12 @@ snapshots:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       react-is: 16.13.1
+
+  proper-lockfile@4.1.2:
+    dependencies:
+      graceful-fs: 4.2.11
+      retry: 0.12.0
+      signal-exit: 3.0.7
 
   protocols@2.0.2: {}
 
@@ -14829,6 +14858,8 @@ snapshots:
       signal-exit: 3.0.7
 
   ret@0.4.3: {}
+
+  retry@0.12.0: {}
 
   reusify@1.1.0: {}
 
@@ -15767,8 +15798,10 @@ snapshots:
 
   yocto-queue@1.2.1: {}
 
-  zephyr-agent@0.0.39:
+  zephyr-agent@0.0.54:
     dependencies:
+      axios: 1.9.0(debug@4.4.0)
+      axios-retry: 4.5.0(axios@1.9.0(debug@4.4.0))
       cloudflare: 3.5.0
       debug: 4.4.0
       git-url-parse: 15.0.0
@@ -15776,24 +15809,25 @@ snapshots:
       jose: 5.10.0
       node-persist: 4.0.4
       open: 10.1.2
+      proper-lockfile: 4.1.2
       socket.io-client: 4.8.1
       tslib: 2.8.1
       uuid: 8.3.2
-      zephyr-edge-contract: 0.0.39
+      zephyr-edge-contract: 0.0.54
     transitivePeerDependencies:
       - bufferutil
       - encoding
       - supports-color
       - utf-8-validate
 
-  zephyr-edge-contract@0.0.39:
+  zephyr-edge-contract@0.0.54:
     dependencies:
       tslib: 2.8.1
 
-  zephyr-repack-plugin@0.0.39:
+  zephyr-repack-plugin@0.0.54:
     dependencies:
-      zephyr-agent: 0.0.39
-      zephyr-xpack-internal: 0.0.39
+      zephyr-agent: 0.0.54
+      zephyr-xpack-internal: 0.0.54
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -15801,13 +15835,13 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  zephyr-xpack-internal@0.0.39:
+  zephyr-xpack-internal@0.0.54:
     dependencies:
       '@module-federation/automatic-vendor-federation': 1.2.1
       is-ci: 4.1.0
       tslib: 2.8.1
-      zephyr-agent: 0.0.39
-      zephyr-edge-contract: 0.0.39
+      zephyr-agent: 0.0.54
+      zephyr-edge-contract: 0.0.54
     transitivePeerDependencies:
       - bufferutil
       - encoding

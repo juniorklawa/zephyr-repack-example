@@ -96,7 +96,7 @@
   },
   "zephyr-repack-plugin": {
     "name": "zephyr-repack-plugin",
-    "version": "0.0.39",
+    "version": "0.0.54",
     "devOnly": true
   },
   "@rsdoctor/rspack-plugin": {

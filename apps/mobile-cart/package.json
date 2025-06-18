@@ -2,6 +2,9 @@
   "name": "MobileCart",
   "version": "0.0.1",
   "private": true,
+  "zephyr:dependencies": {
+    "MobileCheckout": "workspace:*"
+  },
   "scripts": {
     "android": "rnef run:android",
     "ios": "rnef run:ios",
@@ -64,7 +67,7 @@
     "mobile-eslint-config": "workspace:^",
     "mobile-sdk": "0.0.1",
     "typescript": "^5.6.3",
-    "zephyr-repack-plugin": "0.0.39"
+    "zephyr-repack-plugin": "0.0.54"
   },
   "rnx-kit": {
     "kitType": "app",

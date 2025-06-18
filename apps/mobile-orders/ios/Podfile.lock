@@ -1,6 +1,6 @@
 PODS:
   - boost (1.84.0)
-  - callstack-repack (5.1.0-rc.0):
+  - callstack-repack (5.1.1):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -2170,7 +2170,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost: 7e761d76ca2ce687f7cc98e698152abd03a18f90
-  callstack-repack: fee7f0077a206fb7aa5a88c0e401cdc559b117cd
+  callstack-repack: dea0d9a2ed51c0d32c0008893224c224a82de370
   DoubleConversion: cb417026b2400c8f53ae97020b2be961b59470cb
   fast_float: 06eeec4fe712a76acc9376682e4808b05ce978b6
   FBLazyVector: 758fbc1be5fb7ce700b23160033d82e574c2b6b7
@@ -2180,7 +2180,7 @@ SPEC CHECKSUMS:
   JWTDecode: 2eed97c2fa46ccaf3049a787004eedf0be474a87
   lottie-ios: a881093fab623c467d3bce374367755c272bdd59
   lottie-react-native: 2ed3839d12e44b5946a901687e9ab00ee9bc3232
-  RCT-Folly: e78785aa9ba2ed998ea4151e314036f6c49e6d82
+  RCT-Folly: 36fe2295e44b10d831836cc0d1daec5f8abcf809
   RCTDeprecation: c147f8912f768e5eedbc5f115b2b223d007d9fe3
   RCTRequired: a71a7e9efd6546704d5abc683e0b68fcaa759861
   RCTTypeSafety: d1bd039b216cfc4a46ad1d8b4564f780648e1be0
