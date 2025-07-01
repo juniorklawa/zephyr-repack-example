@@ -77,7 +77,8 @@
       "eslint": "8"
     },
     "overrides": {
-      "image-size": ">=1.2.1"
+      "image-size": ">=1.2.1",
+      "tar-fs": "3.0.9"
     }
   },
   "commitlint": {
